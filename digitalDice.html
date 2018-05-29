@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>Digital Dice</title>
+	<link rel='stylesheet' href='digitalDice.css'>
+</head>
+<body>
+	<center>
+	<div class='diceAppHolder'>
+
+		<div class='title'><h1>How many dice would you like to roll?</h1></div>
+			
+		<div class='buttonHolder'>
+			<div class='clearDiceButton'><input class='button' type='button' value='Roll 1 Dice' onclick='oneDice()' id='clearDiceButton'></div>
+		</div>
+		<div class='buttonHolder'>
+			<div class='clearDiceButton'><input class='button' type='button' value='Roll 2 Dice' onclick='twoDice()' id='clearDiceButton'></div>
+		</div>
+		<div class='buttonHolder'>
+				<div class='clearDiceButton'><input class='button' type='button' value='Roll 3 Dice' onclick='lastRoll()' id='clearDiceButton'></div>
+			</div>
+
+		<br />
+		<br />
+		<br />
+
+		<div class='diceFirstSection'>
+			<img id='diceOne' src='images/diceOne.jpg'>
+			<img id='diceTwo' src='images/diceTwo.jpg'>
+			<img id='diceThree' src='images/diceThree.jpg'>
+			<img id='diceFour' src='images/diceFour.jpg'>
+			<img id='diceFive' src='images/diceFive.jpg'>
+			<img id='diceSix' src='images/diceSix.jpg'>
+		</div>
+<br/><br/>
+		<div class='diceSecondSection'>
+			<img id='diceSeven' src='images/diceOne.jpg'>
+			<img id='diceEight' src='images/diceTwo.jpg'>
+			<img id='diceNine' src='images/diceThree.jpg'>
+			<img id='diceTen' src='images/diceFour.jpg'>
+			<img id='diceEleven' src='images/diceFive.jpg'>
+			<img id='diceTwelve' src='images/diceSix.jpg'>
+		</div>
+<br/><br/>
+		<div class='diceThirdSection'>
+			<img id='diceThirteen' src='images/diceOne.jpg'>
+			<img id='diceFourteen' src='images/diceTwo.jpg'>
+			<img id='diceFifteen' src='images/diceThree.jpg'>
+			<img id='diceSixteen' src='images/diceFour.jpg'>
+			<img id='diceSeventeen' src='images/diceFive.jpg'>
+			<img id='diceEighteen' src='images/diceSix.jpg'>
+		</div>
+			<br />
+
+
+
+		<br />
+		<br />
+		<h3>Total</h3>
+		<div class=totalNumber><label> </label><span id=spanTotalNumber1></span></div>
+		<div class=totalNumber><label> </label><span id=spanTotalNumber2></span></div>
+		<div class=totalNumber><label> </label><span id=spanTotalNumber3></span></div>
+
+
+	</div>
+	</center>
+<script src='digitalDice.js'></script>
+</body>
+</html>

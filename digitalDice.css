@@ -1,0 +1,207 @@
+html{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+	background-color: #999da4;
+	width: auto;
+	height: auto;
+}
+
+
+.diceAppHolder{
+	background-color: rgb(68, 69, 75);
+	color: white;
+	width: 1200px;
+	height: 1050px;
+	border: 4px groove gray;
+	border-radius: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10px;
+} 
+
+h1 {
+	font-size: 70px;
+	padding-left: 140px;
+	padding-right: 140px;
+	margin-left: auto;
+	margin-right: auto; 
+} 
+
+.buttonHolder{
+	margin-left: 400px;
+	margin-right: auto;
+} 
+
+.rollDiceButton {
+	float: left;
+} 
+
+.clearDiceButton {
+	float: left;
+	margin-left: 20px;
+}
+
+.button {
+	font-size: 20px;
+	background-color: rgb(37, 38, 40);
+	color: white;
+	border: groove;
+	border-radius: 10px;
+
+}
+.diceFirstSection {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.diceSecondSection {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-top: auto;
+}
+.diceThirdSection {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+h3 {
+	font-size: 40px;
+}
+.totalNumber{
+	font-size: 60px;
+	margin-left: auto;
+}
+
+
+#diceOne{
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceTwo {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceThree {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceFour {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceFive {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceSix {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceSeven {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceEight {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceNine {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceTen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceEleven {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceTwelve {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceThirteen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceFourteen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceFifteen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceSixteen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceSeventeen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
+
+#diceEighteen {
+	border: solid 3px;
+	border-radius: 17px;
+	width: 128px;
+	height: 128px;
+}
