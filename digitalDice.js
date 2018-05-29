@@ -8,6 +8,16 @@ function oneDice(){
 	var diceFour = document.getElementById('diceFour').style.border = '';
 	var diceFive = document.getElementById('diceFive').style.border = '';
 	var diceSix = document.getElementById('diceSix').style.border = '';
+	var diceNine = document.getElementById('diceNine').style.border = '';
+	var diceTen = document.getElementById('diceTen').style.border = '';
+	var diceEleven = document.getElementById('diceEleven').style.border = '';
+	var diceTwelve = document.getElementById('diceTwelve').style.border = '';
+	var diceThirteen = document.getElementById('diceThirteen').style.border = '';
+	var diceFourteen = document.getElementById('diceFourteen').style.border = '';
+	var diceFifteen = document.getElementById('diceFifteen').style.border = '';
+	var diceSixteen = document.getElementById('diceSixteen').style.border = '';
+	var diceSeventeen = document.getElementById('diceSeventeen').style.border = '';
+	var diceEighteen = document.getElementById('diceEighteen').style.border = '';
 
 	var spanTotalNumber1 = document.getElementById('spanTotalNumber1');
 	spanTotalNumber1.innerText = '';
@@ -49,6 +59,12 @@ function roll1dice(){
 		diceTen.style.border = '';
 		diceEleven.style.border = '';
 		diceTwelve.style.border = '';
+		// diceThirteen.style.border = '';
+		// diceFourteen.style.border = '';
+		// diceFifteen.style.border = '';
+		// diceSixteen.style.border = '';
+		// diceSeventeen.style.border = '';
+		// diceEightneen.style.border = '';
 	
 	var sum = dice1;
 
@@ -79,6 +95,12 @@ function twoDice(){
 	var diceTen = document.getElementById('diceTen').style.border = '';
 	var diceEleven = document.getElementById('diceEleven').style.border = '';
 	var diceTwelve = document.getElementById('diceTwelve').style.border = '';
+	var diceThirteen = document.getElementById('diceThirteen').style.border = '';
+	var diceFourteen = document.getElementById('diceFourteen').style.border = '';
+	var diceFifteen = document.getElementById('diceFifteen').style.border = '';
+	var diceSixteen = document.getElementById('diceSixteen').style.border = '';
+	var diceSeventeen = document.getElementById('diceSeventeen').style.border = '';
+	var diceEighteen = document.getElementById('diceEighteen').style.border = '';
 
 	var spanTotalNumber2 = document.getElementById('spanTotalNumber2');
 	spanTotalNumber2.innerText = '';
@@ -141,6 +163,12 @@ function roll2dice(){
 	if(dice2 == '6'){
 		diceTwelve.style.border = '6px solid green';
 	}
+		// diceThirteen.style.border = '';
+		// diceFourteen.style.border = '';
+		// diceFifteen.style.border = '';
+		// diceSixteen.style.border = '';
+		// diceSeventeen.style.border = '';
+		// diceEightneen.style.border = '';
 
 	var sum = dice1 + dice2;
 
@@ -150,6 +178,7 @@ function roll2dice(){
 
 	var spanTotalNumber1 = document.getElementById('spanTotalNumber1');
 	spanTotalNumber1.innerText = '';
+
 	var spanTotalNumber3 = document.getElementById('spanTotalNumber3');
 	spanTotalNumber3.innerText = '';
 }
@@ -267,17 +296,18 @@ function rollLastdice(){
 		diceSeventeen.style.border = '6px solid blue';
 	}
 	if(diceLast == '6'){
-		diceEightneen.style.border = '6px solid blue';
+		diceEighteen.style.border = '6px solid blue';
 	}
 
 	var sum = dice1 + dice2 + diceLast;
 
-	var totalNumber3 = document.getElementById('totalNumber3');
+	var spanTotalNumber3 = document.getElementById('spanTotalNumber3');
 
-	totalNumber3.innerText =  'Three Dice: '+sum;
+	spanTotalNumber3.innerText =  'Three Dice: '+sum;
 
 	var spanTotalNumber1 = document.getElementById('spanTotalNumber1');
 	spanTotalNumber1.innerText = '';
+
 	var spanTotalNumber2 = document.getElementById('spanTotalNumber2');
 	spanTotalNumber2.innerText = '';
 }
