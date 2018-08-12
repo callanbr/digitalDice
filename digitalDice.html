@@ -5,65 +5,73 @@
 	<link rel='stylesheet' href='digitalDice.css'>
 </head>
 <body>
-	<center>
+	<!-- <center> -->
 	<div class='diceAppHolder'>
 
 		<div class='title'><h1>How many dice would you like to roll?</h1></div>
-			
+			<br>
 		<div class='buttonHolder'>
-			<div class='clearDiceButton'><input class='button' type='button' value='Roll 1 Dice' onclick='oneDice()' id='clearDiceButton'></div>
-		</div>
-		<div class='buttonHolder'>
-			<div class='clearDiceButton'><input class='button' type='button' value='Roll 2 Dice' onclick='twoDice()' id='clearDiceButton'></div>
-		</div>
-		<div class='buttonHolder'>
-				<div class='clearDiceButton'><input class='button' type='button' value='Roll 3 Dice' onclick='lastRoll()' id='clearDiceButton'></div>
+			<div class='clearDiceButton'><input class='button' type='button' value='1' onclick='oneDice()' id='clearDiceButton'></div>
+			<div class='clearDiceButton'><input class='button' type='button' value='2' onclick='twoDice()' id='clearDiceButton'></div>
+			<div class='clearDiceButton'><input class='button' type='button' value='3' onclick='lastRoll()' id='clearDiceButton'></div>
+			<div class='clearDiceButton'><input class='button' type='button' value='4' onclick='lastRoll()' id='clearDiceButton'></div>
+			<div class='clearDiceButton'><input class='button' type='button' value='5' onclick='lastRoll()' id='clearDiceButton'></div>
 			</div>
 
-		<br />
-		<br />
-		<br />
+		<br>
+		<br>
 
-		<div class='diceFirstSection'>
-			<img id='diceOne' src='images/diceOne.jpg'>
-			<img id='diceTwo' src='images/diceTwo.jpg'>
-			<img id='diceThree' src='images/diceThree.jpg'>
-			<img id='diceFour' src='images/diceFour.jpg'>
-			<img id='diceFive' src='images/diceFive.jpg'>
-			<img id='diceSix' src='images/diceSix.jpg'>
+		<div class='diceSection'>
+			<img class="dice" id='dice1' src='images/diceOne.jpg'>
+			<img class="dice" id='dice2' src='images/diceTwo.jpg'>
+			<img class="dice" id='dice3' src='images/diceThree.jpg'>
+			<img class="dice" id='dice4' src='images/diceFour.jpg'>
+			<img class="dice" id='dice5' src='images/diceFive.jpg'>
+			<img class="dice" id='dice6' src='images/diceSix.jpg'>
 		</div>
-<br/><br/>
-		<div class='diceSecondSection'>
-			<img id='diceSeven' src='images/diceOne.jpg'>
-			<img id='diceEight' src='images/diceTwo.jpg'>
-			<img id='diceNine' src='images/diceThree.jpg'>
-			<img id='diceTen' src='images/diceFour.jpg'>
-			<img id='diceEleven' src='images/diceFive.jpg'>
-			<img id='diceTwelve' src='images/diceSix.jpg'>
+		<div class='diceSection'>
+			<img class="dice" id='dice7' src='images/diceOne.jpg'>
+			<img class="dice" id='dice8' src='images/diceTwo.jpg'>
+			<img class="dice" id='dice9' src='images/diceThree.jpg'>
+			<img class="dice" id='dice10' src='images/diceFour.jpg'>
+			<img class="dice" id='dice11' src='images/diceFive.jpg'>
+			<img class="dice" id='dice12' src='images/diceSix.jpg'>
 		</div>
-<br/><br/>
-		<div class='diceThirdSection'>
-			<img id='diceThirteen' src='images/diceOne.jpg'>
-			<img id='diceFourteen' src='images/diceTwo.jpg'>
-			<img id='diceFifteen' src='images/diceThree.jpg'>
-			<img id='diceSixteen' src='images/diceFour.jpg'>
-			<img id='diceSeventeen' src='images/diceFive.jpg'>
-			<img id='diceEighteen' src='images/diceSix.jpg'>
+		<div class='diceSection'>
+			<img class="dice" id='dice13' src='images/diceOne.jpg'>
+			<img class="dice" id='dice14' src='images/diceTwo.jpg'>
+			<img class="dice" id='dice15' src='images/diceThree.jpg'>
+			<img class="dice" id='dice16' src='images/diceFour.jpg'>
+			<img class="dice" id='dice17' src='images/diceFive.jpg'>
+			<img class="dice" id='dice18' src='images/diceSix.jpg'>
 		</div>
-			<br />
+			<div class='diceSection'>
+				<img class="dice" id='dice19' src='images/diceOne.jpg'>
+				<img class="dice" id='dice20' src='images/diceTwo.jpg'>
+				<img class="dice" id='dice21' src='images/diceThree.jpg'>
+				<img class="dice" id='dice22' src='images/diceFour.jpg'>
+				<img class="dice" id='dice23' src='images/diceFive.jpg'>
+				<img class="dice" id='dice24' src='images/diceSix.jpg'>
+			</div>
+			<div class='diceSection'>
+				<img class="dice" id='dice25' src='images/diceOne.jpg'>
+				<img class="dice" id='dice26' src='images/diceTwo.jpg'>
+				<img class="dice" id='dice27' src='images/diceThree.jpg'>
+				<img class="dice" id='dice28' src='images/diceFour.jpg'>
+				<img class="dice" id='dice29' src='images/diceFive.jpg'>
+				<img class="dice" id='dice30' src='images/diceSix.jpg'>
+			</div>
 
-
-
-		<br />
-		<br />
 		<h3>Total</h3>
 		<div class=totalNumber><label> </label><span id=spanTotalNumber1></span></div>
 		<div class=totalNumber><label> </label><span id=spanTotalNumber2></span></div>
 		<div class=totalNumber><label> </label><span id=spanTotalNumber3></span></div>
+		<div class=totalNumber><label> </label><span id=spanTotalNumber4></span></div>
+		<div class=totalNumber><label> </label><span id=spanTotalNumber5></span></div>
 
 
 	</div>
-	</center>
+	<!-- </center> -->
 <script src='digitalDice.js'></script>
 </body>
 </html>

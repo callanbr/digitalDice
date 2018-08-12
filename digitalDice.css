@@ -1,5 +1,8 @@
 html{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	margin: auto;
+	max-width: 800px;
 }
 
 body{
@@ -8,200 +11,113 @@ body{
 	height: auto;
 }
 
-
 .diceAppHolder{
 	background-color: rgb(68, 69, 75);
 	color: white;
-	width: 1200px;
-	height: 1050px;
+	width: auto;
+	height: auto;
 	border: 4px groove gray;
 	border-radius: 45px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:10px;
+	align-content: center;
 } 
 
 h1 {
-	font-size: 70px;
-	padding-left: 140px;
-	padding-right: 140px;
+	font-size: 6vw;
+	max-width: 800px;
+	padding-left: 40px;
+	padding-right: 40px;
 	margin-left: auto;
 	margin-right: auto; 
 } 
+@media screen and (min-width: 800px) {
+	h1 {
+	   font-size: 50px;
+	}
+  }
 
 .buttonHolder{
-	margin-left: 400px;
+	margin-left: auto;
 	margin-right: auto;
+	width: 70vw;
+	max-width: 800px;
+	margin-top: -10px;
 } 
 
-.rollDiceButton {
+/* .rollDiceButton {
 	float: left;
-} 
+}  */
 
 .clearDiceButton {
-	float: left;
-	margin-left: 20px;
+	/* float: left; */
+	/* margin-left: 10px; */
+	margin-left: auto;
+	margin-right: auto;
+	display: inline;
 }
 
 .button {
-	font-size: 20px;
+	font-size: 4vw;
 	background-color: rgb(37, 38, 40);
 	color: white;
 	border: groove;
 	border-radius: 10px;
-
 }
-.diceFirstSection {
+@media screen and (min-width: 800px) {
+	.button {
+	   font-size: 38px;
+	}
+  }
+.diceSection {
+	margin-top: -20px;
+	margin-bottom: 20px;
 	display: inline-block;
-	vertical-align: top;
-	margin-left: auto;
-	margin-top: auto;
-}
-
-.diceSecondSection {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: auto;
-	margin-top: auto;
-}
-.diceThirdSection {
-	display: inline-block;
-	vertical-align: top;
-	margin-left: auto;
-	margin-top: auto;
+	/* vertical-align: top; */
+	/* margin-left: auto; */
+	/* margin-top: auto; */
 }
 
 h3 {
-	font-size: 40px;
-}
-.totalNumber{
-	font-size: 60px;
+	font-size: 6vw;
+	max-width: 800px;
+	padding-left: 40px;
+	padding-right: 40px;
 	margin-left: auto;
+	margin-right: auto; 
+	margin-top: -10px;
+} 
+@media screen and (min-width: 800px) {
+	h3 {
+	   font-size: 50px;
+	}
+  }
+.totalNumber {
+	font-size: 6vw;
+	/* max-width: 800px; */
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-bottom: 5px;
+} 
+@media screen and (min-width: 800px) {
+	.totalNumber {
+	   font-size: 50px;
+	}
 }
 
-
-#diceOne{
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
+.dice{
+	border: solid 4px;
+	border-radius: 1.5vw;
+	width: 9vw;
+	height: 9vw;
+	max-width: 90px;
+	max-height: 90px;
 }
-
-#diceTwo {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceThree {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceFour {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceFive {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceSix {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceSeven {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceEight {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceNine {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceTen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceEleven {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceTwelve {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceThirteen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceFourteen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceFifteen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceSixteen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceSeventeen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
-
-#diceEighteen {
-	border: solid 3px;
-	border-radius: 17px;
-	width: 128px;
-	height: 128px;
-}
+@media screen and (min-width: 800px) {
+	.dice {
+		border-radius: 10px;;
+	}
+  }
